@@ -4,7 +4,7 @@ import time
 with open('poemas_resultados.txt', 'w+') as poema_file:
     poema_file.write('')
 
-openai.api_key = "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"
+openai.api_key = "Here goes the API Key"
 
 poemas = {}
 prompts = [
