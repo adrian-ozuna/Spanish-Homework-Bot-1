@@ -31,8 +31,6 @@ for i in range(0, cantidadPoemas):
 print("Poemas:")
 print(poemas)
 
-timeBeforeCooldwn = 0
-
 for i in range(0, len(poemas)):
     print(f'Index: {i}')
     with open('poemas_resultados.txt', "a", encoding="utf-8") as poema_resultados_file:
